@@ -22,7 +22,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
   try {
-    await axios.post("http://localhost:3000/quiz/register",formData)
+    await axios.post("https://brainbrawl-cadn.onrender.com/quiz/register",formData)
    
     setFormData({
         name: "",

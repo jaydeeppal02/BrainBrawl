@@ -28,7 +28,7 @@ const Login = () => {
     
     try {
       await axios.post(
-        "http://localhost:3000/quiz/login",
+        "https://brainbrawl-cadn.onrender.com/quiz/login",
         formData,
       );
       
